@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/app.css">
+		<script src="js/audio.js"></script>
+		<script>
+			window.addEventListener("DOMContentLoaded", function() {
+				document.addEventListener("keyup", function(event) {
+					if (event.keyCode == 32) {
+						play_audio("audio/spacebar.wav");
+						setTimeout(function() {
+							window.location = "game.html";
+						}, 250);
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div>
+			<section>
+				&nbsp;<br>
+				Upon entering a dimly lit dungeon, the door you just passed through slams shut of its own accord. The entrance won't open despite your best efforts. As you turn and move towards the centre of the room your eyes adjust to the darkness... There are dozens of blood thirsty monsters surrounding you!<br>
+				&nbsp;<br>		
+				Your most powerful spells bounce off their leathery hides, leaving you powerless. Your only chance of survival lies by moving in such a way that the monsters collide with each other... the ancient cobbled floor doesn't look strong enough to hold the weight of multiple monsters!<br><br>
+				You might be able to use a teleportation spell if you're cornered. It's tricky to cast correctly... there's no guarantee you won't appear next to a monster!<br>
+				&nbsp;<br>
+				Use Q, W, E, A, D, Z, X, and C to move. Use S to teleport. Use SPACEBAR to start the game.
+			</section>
+		</div>
+	</body>
+</html>
