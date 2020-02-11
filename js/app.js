@@ -12,6 +12,12 @@ var map = null;
 function boot()
 {
 	lock();
+	preload("images/background.png");
+	preload("images/blank.png");
+	preload("images/death.png");
+	preload("images/enemy.png");
+	preload("images/obst.png");
+	preload("images/player.png");
 	new_canvas();
 	new_player();
 	new_map();

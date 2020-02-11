@@ -10,3 +10,9 @@ function show_banner(message)
 {
 	get_canvas().parentNode.innerHTML += "<section>&nbsp;<br>" + message + "</section>";
 }
+
+function preload(url)
+{
+	var image = new Image();
+	image.src = url;
+}
