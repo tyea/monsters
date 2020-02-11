@@ -6,6 +6,10 @@ Monsters is a [Robots](https://en.wikipedia.org/wiki/Chase_(video_game)) clone w
 
 * `python3 -m http.server`
 
+## Play
+
+You can play it [here](http://games.tomyeadon.com/monsters/index.html).
+
 ## Credits
 
 * Art: [Kenney](https://opengameart.org/content/1-bit-pack)
