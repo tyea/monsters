@@ -1,5 +1,7 @@
 # Monsters
 
+## About
+
 Monsters is a [Robots](https://en.wikipedia.org/wiki/Chase_(video_game)) clone written in JavaScript.
 
 ## Usage
