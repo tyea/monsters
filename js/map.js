@@ -1,6 +1,9 @@
+var map = null;
+
 function new_map()
 {
 	var player = get_player();
+	var enemies = 0;
 	var map = [];
 	for (var y = 0; y < MAP_HEIGHT; y += 1) {
 		map[y] = [];
@@ -8,14 +11,17 @@ function new_map()
 			var cell = new_cell();
 			if (x != player.x && y != player.y) {
 				if (rand(0, MAP_FILL_RATE) == 0) {
+					enemies += 1;
 					cell.enemies += 1;
 				}
 			}
 			map[y][x] = cell;
 		}
 	}
-	// @todo assert enemies > 0
 	window.map = map;
+	if (enemies == 0) {
+		new_map();
+	}
 }
 
 function get_map()

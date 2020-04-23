@@ -16,3 +16,8 @@ function preload(url)
 	var image = new Image();
 	image.src = url;
 }
+
+function nl2br(message)
+{
+	return message.replace(/\n/g, "<br>");
+}

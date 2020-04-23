@@ -1,3 +1,5 @@
+var player = null;
+
 function new_player()
 {
 	window.player = {x: PLAYER_STARTING_X, y: PLAYER_STARTING_Y};

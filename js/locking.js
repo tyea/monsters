@@ -1,3 +1,5 @@
+var locked = null;
+
 function lock()
 {
 	window.locked = true;

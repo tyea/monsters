@@ -4,11 +4,6 @@ const MAP_FILL_RATE = 29;
 const PLAYER_STARTING_X = 9;
 const PLAYER_STARTING_Y = 7;
 
-var locked = null;
-var canvas = null;
-var player = null;
-var map = null;
-
 function boot()
 {
 	lock();
