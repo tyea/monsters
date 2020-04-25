@@ -4,7 +4,7 @@ function get_menu_message()
 	message += "Upon entering a dimly lit dungeon, the door you just passed through slams shut of its own accord. ";
 	message += "The entrance won't open despite your best efforts. ";
 	message += "As you turn and move towards the centre of the room your eyes adjust to the darkness... ";
-	message += "There are dozens of blood thirsty monsters surrounding you!\n\n";	
+	message += "There are dozens of blood thirsty monsters surrounding you!\n\n";
 	message += "Your most powerful spells bounce off their leathery hides, leaving you powerless. ";
 	message += "Your only chance of survival lies by moving in such a way that the monsters collide with each other... ";
 	message += "the ancient cobbled floor doesn't look strong enough to hold the weight of multiple monsters!\n\n";

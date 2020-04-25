@@ -35,7 +35,7 @@ function calculate_collisions()
 	var player = get_player();
 	for (var y = 0; y < MAP_HEIGHT; y += 1) {
 		for (var x = 0; x < MAP_WIDTH; x += 1) {
-			var cell = get_cell(x, y);	
+			var cell = get_cell(x, y);
 			var is_player = x == player.x && y == player.y;
 			if (!is_player) {
 				if (cell.is_obst && cell.enemies > 0) {
